@@ -1,0 +1,168 @@
+body, table, tbody, tr, td, form, img, div, h3, h4, ol, ul, li, p, a {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Arial,Sans,sans-serif;
+  text-align: left;
+}
+
+.site {
+  width: 100%;
+  height: 100%;
+  border-width: 0px;
+  border-collapse: collapse;
+}
+
+.header {
+  font-size: 20pt;
+  text-align: right;
+  vertical-align: bottom;
+  white-space: nowrap;
+  font-weight: bold;
+  padding: 20px;
+  padding-bottom: 30px;
+  background: url(/image/stripe.png) #FFFFFF left bottom repeat-x;
+}
+
+.header #logo {
+  float: left;
+  text-decoration: none;
+}
+
+.header #logo img {
+  height: 100px;
+  border: 0px;
+}
+
+.menu {
+  height: 100%;
+  vertical-align: top;
+  white-space: nowrap;
+  font-size: 15pt;
+  font-weight: bold;
+  background: #dedede;
+}
+
+.menu ul {
+  padding: 10px 15px;
+}
+
+.menu li {
+  margin: 15px 0px;
+  list-style: none outside;
+  background: url("/image/li.png") left center no-repeat;
+}
+
+.menu li#selected {
+  background: url("/image/li_selected.png") left center no-repeat;
+}
+
+.menu li a {
+  color: #000000;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+.menu .abuse {
+  height: 35px;
+  width: 100%;
+  padding-top: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: url(/image/abuse.png) #dedede left top repeat-x;
+  text-align: center;
+  display: table-cell;
+  vertical-align: top;
+}
+
+.menu .abuse a {
+  color: #FFFFFF;
+  font-size: 14pt;
+  text-decoration: none;
+}
+
+.menu .banner {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.menu .banner img {
+  margin-top: 15px;
+  margin-left: 3px;
+  margin-right: 3px;
+  height: 50px;
+  border: 0px;
+}
+
+.lang {
+  width: 100%;
+  text-align: right;
+  font-size: 10pt;
+  font-weight: bold;
+  color: #aaaaaa;
+}
+
+.lang a {
+  color: #aaaaaa;
+  text-decoration: none;
+}
+
+.lang #selected {
+  color: red;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+  text-align: justify;
+  padding: 20px;
+  padding-top: 10px;
+  background: #FFFFFF;
+  font-size: 12pt;
+}
+
+.content h3 {
+  text-align: center; 
+  font-size: 15pt;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.content h4 {
+  text-align: left; 
+  font-size: 13pt;
+  font-weight: bold;
+}
+
+.content p {
+  text-indent: 20px;
+  padding-bottom: 10px;
+}
+
+.content ul {
+  padding: 5px 20px;
+  list-style-type: circle;
+}
+
+.content ol {
+  padding: 5px 40px;
+}
+
+.content li {
+  padding: 5px;
+}
+
+.footer {
+  vertical-align: bottom;
+  text-align: center;
+  font-size: 9pt;
+  background: #FFFFFF;
+  padding-bottom: 5px;
+} 
+

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <title>
+RU-CERT    </title>
+    <link rel="stylesheet" type="text/css" href="savedpage/style_9.css"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <table class="site">
+      <tbody>
+        <tr>
+          <td colspan="2" class="header">
+            <a href="/ru/about.shtml" id="logo">
+              <img alt="RU-CERT" src="savedpage/logo_9.png"/>
+            </a>
+ЦЕНТР РЕАГИРОВАНИЯ            <br/>
+НА КОМПЬЮТЕРНЫЕ ИНЦИДЕНТЫ            <br/>
+Российской Федерации          </td>
+        </tr>
+        <tr>
+          <td rowspan="2" class="menu">
+            <ul>
+              <li>
+                <a href="about.shtml">
+RU-CERT                </a>
+              </li>
+              <li>
+                <a href="incidents.shtml">
+Инциденты                </a>
+              </li>
+              <li>
+                <a href="contacts.shtml">
+Контакты                </a>
+              </li>
+              <li>
+                <a href="links.shtml">
+Ссылки                </a>
+              </li>
+              <li>
+                <a href="news.shtml">
+Новости                </a>
+              </li>
+            </ul>
+            <div style="display: table; width: 100%;">
+              <div class="abuse">
+                <a href="abuse.shtml">
+Сообщить об инциденте                </a>
+              </div>
+            </div>
+            <div class="banner">
+              <a href="http://www.first.org/" target="_blank">
+                <img src="savedpage/first_9.png"/>
+              </a>
+              <a href="http://www.fid.ru/projects/saferinternet/year/" target="_blank">
+                <img src="savedpage/saferinternet_8.png"/>
+              </a>
+              <br/>
+              <a href="https://www.trusted-introducer.org/" target="_blank">
+                <img src="savedpage/ti_9.jpg"/>
+              </a>
+              <a href="http://www.ripn.ru/" target="_blank">
+                <img src="savedpage/ripn_8.gif"/>
+              </a>
+            </div>
+          </td>
+          <td class="content">
+            <div class="lang">
+              <span id="selected">
+RUS              </span>
+|              <a href="/en/about.shtml">
+ENG              </a>
+            </div>
+            <h3>
+Сообщить об инциденте            </h3>
+            <p>
+Сообщить об инциденте Вы можете следующим образом:            </p>
+            <ol>
+              <li>
+По электронной почте по адресу                <a href="mailto:info@cert.ru">
+info@cert.ru                </a>
+                <span style="color: red; font-weight: bold;">
+(рекомендуется)                </span>
+.                <br/>
+Для защиты передаваемой информации и подтверждения подлинности сотрудников при обмене почтовыми сообщениями в RU-CERT используется PGP (Pretty Good Privacy). Открытый PGP-ключ RU-CERT                <a href="/public.key">
+опубликован                </a>
+на сервере RU-CERT.              </li>
+              <li>
+Заполнив форму:                <form name="REPORT" method="POST" action="/cgi-bin/_new_rep.cgi">
+                  <kbd>
+                    <ul>
+                      <li>
+Ваш контактный E-mail                        <span style="color: red;">
+[обязательно]                        </span>
+:                        <br/>
+                        <input type="text" name="CONTACT" size="45" maxlength="45" value="Victor Butenko"/>
+                        <br/>
+                      </li>
+                      <li>
+Информация о времени инцидента                        <span style="color: red;">
+[обязательно]                        </span>
+                        <br/>
+(в виде ММ/ДД чч:мм):                        <input type="text" name="TIME-START" size="20" maxlength="20" value="02/17 00:00"/>
+                        <br/>
+часовой пояс:                        <select name="TZ">
+                          <option/>
+                          <option>
+GMT+0                          </option>
+                          <option>
+GMT+1                          </option>
+                          <option selected="selected">
+GMT+2                          </option>
+                          <option>
+GMT+3                          </option>
+                          <option>
+GMT+4                          </option>
+                          <option>
+GMT+5                          </option>
+                          <option>
+GMT+6                          </option>
+                          <option>
+GMT+7                          </option>
+                          <option>
+GMT+8                          </option>
+                          <option>
+GMT+9                          </option>
+                          <option>
+GMT+11                          </option>
+                          <option>
+GMT+12                          </option>
+                        </select>
+                        <br/>
+синхронизированно ли время?                        <select name="NTP">
+                          <option>
+Да                          </option>
+                          <option selected="selected">
+Нет                          </option>
+                        </select>
+                        <br/>
+Дополнение:                        <input type="text" name="TIME-REMARK" size="32" maxlength="80" value="Дополнение какое-то"/>
+                      </li>
+                      <li>
+Ваше сообщение (включая выдержки из лог-файлов и т.п., Ваш комментарий):                        <br/>
+                        <textarea rows="15" cols="78" name="LOG">
+Джава не тормозит, Паша хватит троллить людей!! :)                        </textarea>
+                        <br/>
+                        <input type="submit" value="Отправить"/>
+                        <input type="reset" value="Очистить"/>
+                      </li>
+                    </ul>
+                  </kbd>
+                </form>
+              </li>
+            </ol>
+          </td>
+        </tr>
+        <tr>
+          <td class="footer">
+© 2008-2012 Российский Центр Реагирования на Компьютерные Инциденты          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
