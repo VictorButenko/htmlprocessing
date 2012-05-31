@@ -22,7 +22,7 @@ public class HtmlProcesssing {
         webClient.setCssEnabled(false);         // Отключаем Css для скорости
         webClient.setJavaScriptEnabled(true);   //поддержка JavaScript. 
         webClient.setUseInsecureSSL(true);      //Разрешаем поддержку SSL
-        webClient.setRedirectEnabled(true); //позволяет перейти по адресу, который указан в ответе сервера.
+        webClient.setRedirectEnabled(true);     //позволяет перейти по адресу, который указан в ответе сервера.
         HtmlPage page = webClient.getPage("http://www.cert.ru/ru/abuse.shtml");   //Открывает указанный адрес
         //  page.save(new File ("savedpage"));
        
